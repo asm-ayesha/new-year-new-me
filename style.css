@@ -1,0 +1,174 @@
+/* goole fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* common style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* shared style */
+main > section{
+    margin:140px 230px;
+}
+.caption{
+    font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+}
+
+.btn{
+    padding: 15px;
+    color: #F15B22;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* banner style start */
+.banner {
+    background-image: url(./images/banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-text {
+    text-align: right;
+    padding: 216px 230px 166px;
+
+}
+
+.banner-caption {
+    width: 525px;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    margin-left: auto;
+
+}
+
+.banner-discription {
+    max-width: 494px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: gray;
+    margin-top: 24px;
+    margin-left: auto;
+
+}
+
+.banner-btn {
+    color: white;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 15px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+/* failure year style */
+
+.failure-year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.failure-cap{
+    width: 288px;
+    
+    
+}
+
+.failure-content{
+   margin-top: 100px;
+}
+
+.failure-desc {
+    width: 416px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666;
+  margin: 24px 0 16px;
+}
+
+.failure-list{
+    list-style: none;
+     color: #666;
+}
+
+.failure-list li {
+  font-size: 16px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.failure-list li::before {
+  content: "✔";
+  color: #16a34a;
+  position: absolute;
+  left: 0;
+}
+
+
+/* my plan section style */
+.plan-cap{
+   text-align: center;
+   margin-bottom: 80px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web,
+.js,
+.smoking,
+.ecom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    
+}
+.plan-desc{
+    color: gray;
+   
+}
+
+/* positive mindset section style */
+.mindset{
+    background:url(./images/gradient2.png),url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.mindset-content{
+    padding: 90px;
+}
+
+.mindset-cap{
+    color: white;
+    width: 459px;
+    margin-bottom: 24px;
+}
