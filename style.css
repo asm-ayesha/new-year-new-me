@@ -172,3 +172,74 @@ line-height: 47px;
     width: 459px;
     margin-bottom: 24px;
 }
+
+/* footer */
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 130px 0;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-caption{
+    font-style: Bold;
+font-size: 45px;
+font-weight: 700;
+    color: white;
+}
+
+.footer-dsc{
+    color: #e4e3e3;
+    width: 485px;
+}
+
+.email,
+.phone{
+      color: #e4e3e3;
+}
+
+.icons{
+    font-size: 30px;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-caption{
+    font-style: Bold;
+font-size: 25px;
+font-weight: 700;
+    color: white;
+}
+
+.right-content input{
+ width: 260px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.right-content button{
+     width: 140px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff4d00;
+    font-size: 15px;
+    cursor: pointer;
+}
